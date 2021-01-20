@@ -1,6 +1,7 @@
 const s = "3[a]2[bc]";
 const b = "3[a2[c]]";
 const c = "2[abc]3[cd]ef";
+const d = "abc3[cd]xyz"
 
 let isParenthesisMatching = (str) => {
   let stack = [];
@@ -36,3 +37,4 @@ let isParenthesisMatching = (str) => {
 console.log(isParenthesisMatching(s));
 console.log(isParenthesisMatching(b));
 console.log(isParenthesisMatching(c));
+console.log(isParenthesisMatching(d));
